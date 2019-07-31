@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.004476">
+<testcase classname="Flight Booking through online" name="search flight" time="0.003483">
+<system-out><![CDATA[When user searches flight giving required details...........................passed
+And verify search related flight is displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Flight Booking through online" name="Order Flight" time="0.000409">
+<system-out><![CDATA[When user clicks on order button............................................passed
+And verify Flight details get added to cart.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Flight Booking through online" name="Payment" time="0.000584">
+<system-out><![CDATA[When user clicks on cart....................................................passed
+And verify payment page displayed...........................................passed
+And user selects netbanking.................................................passed
+Then user completes payment.................................................passed
+Then Verify payment success.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
